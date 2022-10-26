@@ -26,5 +26,6 @@ Vagrant.configure("2") do |config|
     vb.memory = "4096"
     vb.cpus = 4
     vb.customize ["modifyvm", :id, "--ioapic", "on"]
+    vb.gui = true
   end
 end
