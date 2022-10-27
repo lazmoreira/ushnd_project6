@@ -26,4 +26,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: lazo00/techtrens:latest
+          tags: lazo00/techtrends:latest
